@@ -11,8 +11,8 @@ on:
       mode:
         description: '运行模式'
         required: true
-        默认: 'full'
-        输入: choice
+        default: 'full'
+        type: choice
         options:
           - full          # 完整分析（股票+大盘）
           - market-only   # 仅大盘复盘
